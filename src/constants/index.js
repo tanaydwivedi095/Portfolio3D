@@ -41,6 +41,48 @@ export const clientReviews = [
 ];
 
 export const myProjects = [
+  // {
+  //   title: 'Interview GPT',
+  //   desc: 'Interview GPT is a platform that is able to provide the user with interview questions of different companies. It is also able to imitate the scenario of a mock interview by asking questions to the interviewee and process their answer and score them accordingly with a score.',
+  //   subdesc:
+  //     'To achieve this an LLM model was fine tuned using QLoRA over a dataset having a corpus of more than 1000 interview questions. Followed as providing the user with a streamlit based UI to interact with the model.',
+  //   href: 'https://github.com/tanaydwivedi095/nutritionRAG',
+  //   texture: '/textures/project/project1.mp4',
+  //   logo: '/assets/project-logo3.png',
+  //   logoStyle: {
+  //     backgroundColor: '#2A1816',
+  //     border: '0.2px solid #36201D',
+  //     boxShadow: '0px 0px 60px 0px #AA3C304D',
+  //   },
+  //   spotlight: '/assets/spotlight1.png',
+  //   tags: [
+  //     {
+  //       id: 1,
+  //       name: 'Python',
+  //       path: '/assets/python.png',
+  //     },
+  //     {
+  //       id: 2,
+  //       name: 'PyTorch',
+  //       path: 'assets/pytorch.png',
+  //     },
+  //     {
+  //       id: 3,
+  //       name: 'Hugging Face',
+  //       path: '/assets/huggingFace.svg',
+  //     },
+  //     {
+  //       id: 4,
+  //       name: 'Ollama',
+  //       path: '/assets/ollama.svg',
+  //     },
+  //     {
+  //       id: 5,
+  //       name: 'Streamlit',
+  //       path: '/assets/streamlit.png',
+  //     },
+  //   ],
+  // },
   {
     title: 'Nutrition Bot',
     desc: 'Nutrition Bot is an AI-driven solution designed to simplify nutrition information retrieval. Finding accurate details about macros and food nutrition was often tedious, with unreliable sources providing conflicting data. To address this, I aimed to create an intelligent bot capable of extracting, verifying, and presenting nutritional information in a clear and accessible manner.',
