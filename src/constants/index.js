@@ -84,11 +84,11 @@ export const myProjects = [
   //   ],
   // },
   {
-    title: 'Nutrition Bot',
-    desc: 'Nutrition Bot is an AI-driven solution designed to simplify nutrition information retrieval. Finding accurate details about macros and food nutrition was often tedious, with unreliable sources providing conflicting data. To address this, I aimed to create an intelligent bot capable of extracting, verifying, and presenting nutritional information in a clear and accessible manner.',
+    title: 'NutriSense AI: Intelligent Nutrition Assistant',
+    desc: 'NutriSense is an AI-driven solution designed to simplify nutrition information retrieval. Finding accurate details about macros and food nutrition was often tedious, with unreliable sources providing conflicting data. To address this, I aimed to create an intelligent bot capable of extracting, verifying, and presenting nutritional information in a clear and accessible manner.',
     subdesc:
       'To achieve this, I employed Retrieval-Augmented Generation (RAG) by sourcing data from multiple books, consolidating relevant information, and cross-checking its accuracy. This processed data was then fed into a language model to generate precise and comprehensible responses. The bot was built using Python, PyTorch, Hugging Face, and OpenAI, ensuring seamless integration of deep learning and natural language processing to deliver accurate and contextually relevant nutrition insights.',
-    href: 'https://github.com/tanaydwivedi095/nutritionRAG',
+    href: 'https://github.com/tanaydwivedi095/NutriSense',
     texture: '/textures/project/project1.mp4',
     logo: '/assets/project-logo3.png',
     logoStyle: {
@@ -121,11 +121,11 @@ export const myProjects = [
     ],
   },
   {
-    title: 'Story Book Generator',
-    desc: 'Story Book Generator is an AI-powered platform designed to create personalized children\'s storybooks. Crafting unique and engaging stories can be time-consuming, making it challenging for parents and educators to provide fresh narratives. This tool addresses that by generating customized stories based on user-defined inputs, ensuring an effortless and enjoyable storytelling experience.',
+    title: 'StoryForge: Intelligent Storytelling Assistant',
+    desc: 'StoryForge is an AI-powered platform designed to create personalized children\'s storybooks. Crafting unique and engaging stories can be time-consuming, making it challenging for parents and educators to provide fresh narratives. This tool addresses that by generating customized stories based on user-defined inputs, ensuring an effortless and enjoyable storytelling experience.',
     subdesc:
       'To build this solution, I utilized LLM-based text generation to create stories tailored to inputs such as title, genre, themes, and characters. The system was developed using Python, Gradio, PyTorch, and OpenAI, enabling seamless interaction and real-time story generation. By integrating these technologies, the platform efficiently produces engaging and imaginative stories, making storytelling more accessible and dynamic.',
-    href: 'https://github.com/tanaydwivedi095/storyGenerator',
+    href: 'https://github.com/tanaydwivedi095/StoryForge',
     texture: '/textures/project/project2.mp4',
     logo: '/assets/project-logo2.png',
     logoStyle: {
@@ -158,11 +158,11 @@ export const myProjects = [
     ],
   },
   {
-    title: 'Movie Transcription System',
-    desc: 'Movie Transcription System is an AI-driven solution designed to generate accurate transcripts from video content. Understanding spoken audio in videos can often be challenging due to accents, background noise, or unclear speech. To address this, I developed a system that efficiently transcribes video audio into text, improving accessibility and content comprehension.',
+    title: 'MovieSync: Automatic Subtitle Generator',
+    desc: 'MovieSync is an AI-driven solution designed to generate accurate transcripts from video content. Understanding spoken audio in videos can often be challenging due to accents, background noise, or unclear speech. To address this, I developed a system that efficiently transcribes video audio into text, improving accessibility and content comprehension.',
     subdesc:
       'To achieve this, I first separated the video and audio components, then preprocessed the audio to reduce noise and enhance clarity. The cleaned audio was then processed using OpenAI Whisper, a state-of-the-art speech-to-text model, to generate precise transcriptions. The system was built using Python, PyTorch, OpenAI, and Streamlit, ensuring a user-friendly interface for seamless video transcription.',
-    href: 'https://github.com/tanaydwivedi095/movieSubtitleGenerator',
+    href: 'https://github.com/tanaydwivedi095/MovieSync',
     texture: '/textures/project/project3.mp4',
     logo: '/assets/project-logo5.png',
     logoStyle: {
@@ -197,11 +197,11 @@ export const myProjects = [
     ],
   },
   {
-    title: 'Skin Cancer Classification System',
-    desc: 'Skin Cancer Classification System is an AI-powered diagnostic tool designed to classify skin cancer lesions as Malignant or Benign. Identifying skin cancer at an early stage is crucial, but manual diagnosis can be challenging and time-consuming. This system aids in early detection by providing an initial classification with confidence scores, enabling timely medical intervention to prevent the progression of benign lesions into malignant ones.',
+    title: 'OncoDerm AI: Smart Skin Cancer Detection',
+    desc: 'OncoDerm is an AI-powered diagnostic tool designed to classify skin cancer lesions as Malignant or Benign. Identifying skin cancer at an early stage is crucial, but manual diagnosis can be challenging and time-consuming. This system aids in early detection by providing an initial classification with confidence scores, enabling timely medical intervention to prevent the progression of benign lesions into malignant ones.',
     subdesc:
       'To develop this system, I leveraged transfer learning and transformer models to enhance accuracy in lesion classification. Pretrained deep learning models were fine-tuned on medical imaging datasets to detect patterns and classify skin lesions effectively. The system was built using Python, TensorFlow, PyTorch, and Streamlit, ensuring a robust backend for model inference and a user-friendly interface for seamless image uploads and instant classification results.',
-    href: 'https://github.com/tanaydwivedi095/Streamlit-UI-for-Skin-Cancer-Predictions',
+    href: 'https://github.com/tanaydwivedi095/OncoDerm',
     texture: '/textures/project/project4.mp4',
     logo: '/assets/project-logo3.png',
     logoStyle: {
@@ -234,11 +234,11 @@ export const myProjects = [
     ],
   },
   {
-    title: 'Stock Price Predictor',
-    desc: 'Stock Price Prediction is an AI-driven system designed to forecast future stock prices for over 500 companies. Financial markets are highly volatile, and accurate predictions can provide valuable insights for traders and analysts. This system helps investors make informed decisions by leveraging historical stock data and statistical patterns to generate reliable price forecasts.',
+    title: 'StockPulse: A Stock Price Prediction System',
+    desc: 'StockPulse is an AI-driven system designed to forecast future stock prices for over 500 companies. Financial markets are highly volatile, and accurate predictions can provide valuable insights for traders and analysts. This system helps investors make informed decisions by leveraging historical stock data and statistical patterns to generate reliable price forecasts.',
     subdesc:
       'To develop this solution, I implemented Long Short-Term Memory (LSTM) networks, a deep learning architecture well-suited for time-series forecasting. The model was trained on historical stock price data to capture trends and fluctuations, enabling it to generate precise future price predictions. Built using Python and TensorFlow, the system ensures robust performance and scalability for real-world financial analysis.',
-    href: 'https://github.com/tanaydwivedi095/Stock-Price-Prediction-Algorithm',
+    href: 'https://github.com/tanaydwivedi095/StockPulse',
     texture: '/textures/project/project5.mp4',
     logo: '/assets/project-logo5.png',
     logoStyle: {
@@ -261,11 +261,11 @@ export const myProjects = [
     ],
   },
   {
-    title: 'Movie Recommendation System',
-    desc: 'Movie Recommendation System is an intelligent recommendation engine designed to suggest movies based on user preferences such as genre, release timeline, and director. With the vast number of movies available, selecting the right one can be overwhelming. This system simplifies the process by providing personalized recommendations, enhancing the user’s viewing experience.',
+    title: 'CineMatch: AI Powered Movie Recommendation System',
+    desc: 'CineMatch is an intelligent recommendation engine designed to suggest movies based on user preferences such as genre, release timeline, and director. With the vast number of movies available, selecting the right one can be overwhelming. This system simplifies the process by providing personalized recommendations, enhancing the user’s viewing experience.',
     subdesc:
       'To achieve this, I implemented cosine similarity, a mathematical approach to measure the closeness between movies based on multiple attributes. By comparing user preferences with existing movie data, the system efficiently finds and recommends similar films. Developed using Python and Scikit-Learn, this solution ensures accurate and relevant movie suggestions, making it easier for users to discover their next favorite film.',
-    href: 'https://github.com/tanaydwivedi095/Project-Movie-Recommendation-System',
+    href: 'https://github.com/tanaydwivedi095/CineMatch',
     texture: '/textures/project/project6.mp4',
     logo: '/assets/project-logo5.png',
     logoStyle: {
