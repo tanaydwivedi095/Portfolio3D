@@ -41,48 +41,48 @@ export const clientReviews = [
 ];
 
 export const myProjects = [
-  // {
-  //   title: 'Interview GPT',
-  //   desc: 'Interview GPT is a platform that is able to provide the user with interview questions of different companies. It is also able to imitate the scenario of a mock interview by asking questions to the interviewee and process their answer and score them accordingly with a score.',
-  //   subdesc:
-  //     'To achieve this an LLM model was fine tuned using QLoRA over a dataset having a corpus of more than 1000 interview questions. Followed as providing the user with a streamlit based UI to interact with the model.',
-  //   href: 'https://github.com/tanaydwivedi095/nutritionRAG',
-  //   texture: '/textures/project/project1.mp4',
-  //   logo: '/assets/project-logo3.png',
-  //   logoStyle: {
-  //     backgroundColor: '#2A1816',
-  //     border: '0.2px solid #36201D',
-  //     boxShadow: '0px 0px 60px 0px #AA3C304D',
-  //   },
-  //   spotlight: '/assets/spotlight1.png',
-  //   tags: [
-  //     {
-  //       id: 1,
-  //       name: 'Python',
-  //       path: '/assets/python.png',
-  //     },
-  //     {
-  //       id: 2,
-  //       name: 'PyTorch',
-  //       path: 'assets/pytorch.png',
-  //     },
-  //     {
-  //       id: 3,
-  //       name: 'Hugging Face',
-  //       path: '/assets/huggingFace.svg',
-  //     },
-  //     {
-  //       id: 4,
-  //       name: 'Ollama',
-  //       path: '/assets/ollama.svg',
-  //     },
-  //     {
-  //       id: 5,
-  //       name: 'Streamlit',
-  //       path: '/assets/streamlit.png',
-  //     },
-  //   ],
-  // },
+  {
+    title: 'InterviewGenie',
+    desc: 'InterviewGenie is an innovative AI-powered interview assistant designed to transform the way candidates prepare for interviews and how interviewers evaluate responses. The system leverages advanced Retrieval-Augmented Generation (RAG) techniques, trained on a comprehensive dataset of 6.8M tokens, to simulate both interviewer and interviewee roles effectively. It features a user-friendly Streamlit-based GUI, enabling seamless interaction through two distinct modes: Interviewer and Interviewee. In Interviewer Mode, the Free option uses google/gemma-2b-it to generate 10-15 structured questions, while the Paid option employs OpenAI’s o1-mini model to provide difficulty-adjustable questions, real-time scoring, and aggregate performance metrics. Meanwhile, in Interviewee Mode, users can input questions and receive context-aware answers using RAG pipelines trained on their own datasets. With support for real-time feedback, dynamic question generation, and performance evaluation, InterviewGenie ensures a comprehensive and engaging experience for both candidates and recruiters.',
+    subdesc:
+      'What sets InterviewGenie apart is its extensibility and future-ready features. Users can fine-tune the RAG model using their own datasets via a customizable training pipeline built with HuggingFace’s transformers library. The project’s GUI enables smooth navigation, real-time response evaluation, and tracking of user progress, such as answers and scores. Additionally, InterviewGenie is built with future enhancements in mind, including speech-to-text functionality that will allow users to answer questions verbally, making the experience more intuitive and natural. The platform’s robust architecture ensures adaptability to various industries and domains, offering personalized feedback and actionable insights to improve candidate performance. Whether you\'re a job seeker aiming to refine your skills or a recruiter seeking efficient tools, InterviewGenie is tailored to meet all your needs in a modern, AI-driven world.',
+    href: 'https://github.com/tanaydwivedi095/nutritionRAG',
+    texture: '/textures/project/project7.mp4',
+    logo: '/assets/project-logo3.png',
+    logoStyle: {
+      backgroundColor: '#2A1816',
+      border: '0.2px solid #36201D',
+      boxShadow: '0px 0px 60px 0px #AA3C304D',
+    },
+    spotlight: '/assets/spotlight1.png',
+    tags: [
+      {
+        id: 1,
+        name: 'Python',
+        path: '/assets/python.png',
+      },
+      {
+        id: 2,
+        name: 'PyTorch',
+        path: 'assets/pytorch.png',
+      },
+      {
+        id: 3,
+        name: 'Hugging Face',
+        path: '/assets/huggingFace.svg',
+      },
+      {
+        id: 4,
+        name: 'OpenAI',
+        path: '/assets/gpt.png',
+      },
+      {
+        id: 5,
+        name: 'Streamlit',
+        path: '/assets/streamlit.png',
+      },
+    ],
+  },
   {
     title: 'NutriSense AI: Intelligent Nutrition Assistant',
     desc: 'NutriSense is an AI-driven solution designed to simplify nutrition information retrieval. Finding accurate details about macros and food nutrition was often tedious, with unreliable sources providing conflicting data. To address this, I aimed to create an intelligent bot capable of extracting, verifying, and presenting nutritional information in a clear and accessible manner.',
